@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Permanent+Marker&family=Tangerine:wght@400;700&display=swap');
+@import url("https://st.fontstorage.com/font/import/abeezee.css");
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 1.5;
+    background-color:#231F20;
+    color: #ffffff;
+}
+
+#fondo {
+    background-image: url('img/gifBueno.gif');
+    height: 100vh;
+    background-size: cover;
+    padding-top: 1px;
+    margin: -8px ;
+}
+.content {
+    display: block;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 1px 0px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li{
+    display: inline-block;
+    margin: 15px 20px;
+}
+
+header nav li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.menu:hover{
+    color: aqua;
+}
+
+.logo span{
+    color: #FEE545;
+    font-weight: bold;
+}
+
+#portada-texto h1{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 100px;   
+    font-family: 'Alkatra';
+    letter-spacing: 30px;
+
+}
+
+#cuadro-portada{
+    background-color: #231F20;
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid #575757;
+    padding: 25px;
+    top: 500px; 
+    left: 13%; 
+    text-align: center;
+    
+}
+
+#cuadro-portada h2{
+    font-size: 40px;
+}
+
+.btn-portada{
+    background-color: #FEE545;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #231F20;
+    transition: all .9s ease;
+}
+
+.btn-portada:hover{
+    background-color: aqua;
+}
+
+#historia-conteiner{
+    display: flex;
+    background-color: #F4F4F4;
+    margin: -8px -90px;
+    padding-left: 8%;
+    padding-top: 5%;
+    padding-bottom: 100px;
+    
+}
+
+.historia-content h2{
+    font-size: 60px;
+    font-family: AC Line;
+    line-height: 1;
+    color: black;
+    padding-right: 300px;
+}
+
+.historia-content p{
+    line-height: 2.5;
+    color: black;
+    padding-right: 100px;
+}
+
+.foto-historia{
+    padding-right: 100px;
+}
+
+
+#img-entrenamientos{
+    background-image: url(https://res.cloudinary.com/ggus-dev/image/private/s--IuHq1xcl--/c_auto,g_auto,w_1800,h_840/v1/2405e908/values.jpg.webp?_a=BAAAV6Bs) ;    
+    height: 100vh;
+    background-size: cover;
+    padding-top: 40px;
+    margin-left: -90px;
+    margin-right: -90px;
+    margin-top: 40px;
+}   
+
+#entrenamietos h2{
+    font-size: 40px;
+    font-family: serif;
+}
+
+#entrenamietos-cards{
+    display: flex;
+    margin: 5%;
+    padding-top: 150px;
+}
+
+.entrenamietos-card{
+    background-color: rgba(0, 0, 0, 0.679); 
+    border-radius: 400px;
+    padding: 3%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.entrenamietos-card-content h3{
+    color: #ededed;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.entrenamietos-card-content p{
+    color: #ffffff;
+}
+
+.entrenamietos-card:hover{
+    background-color: rgba(152, 148, 19, 0.656); 
+    color: #231F20;
+}
+
+.entrenamietos-card-content:hover{
+    font-size: 21px;
+    color: black;
+}
+
+#ubicaciones{
+    background-color: white;
+    margin-left: -90px;
+    margin-right: -90px;
+    margin-top: -34px;
+}
+
+#ubicaciones h2{
+    color: black;
+    padding-left: 6%;
+    padding-right: 2%;
+}
+
+#ubicaciones h2{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-size: 40px;
+    font-family: serif;
+    background-color: #f0f0f0;  /* Fondo claro para resaltar */
+    border-radius: 5px;  /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Sombra sutil */
+    transition: all 0.5s ease;  /* Transición suave */
+}
+
+.ubicacionesP{
+    margin-left: 5%;
+    margin-top: 1%;
+    color: black;
+}
+
+#ubicaciones-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+#ubicaciones-cards img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.ubicaciones-card{
+    background-color: #231F20;
+    border-radius: 25px;
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    box-shadow: 20px 20px 6px rgba(0, 0, 0, 0.2);
+}
+
+.ubicaciones-card-content{
+    text-align: center;
+    padding: 5%;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.footer-ubicacion{
+    display: flex;
+    justify-content: center;
+}
+
+.ubicacionesP2{
+    margin-top: -10px;
+    color: white;
+    
+}
+
+.btn-ubicacion{
+    background-color: #FEE545;
+    border-radius: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #231F20;
+    transition: all .9s ease;
+}
+
+.ubicaciones-card:hover{
+    background-color: #332F30;
+}
+
+.btn-ubicacion:hover{
+    background-color: aqua;
+}
+
+#tienda-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+#tienda-cards img{
+    width: 100%;          /* Ancho al 100% del contenedor */
+    height: 500px;        /* Altura fija */
+    object-fit: cover; 
+}
+
+#tienda h2{
+    padding-top: -20px;
+    font-size: 40px;
+    font-family: serif;
+    text-align: center;
+}
+
+.tienda-card{
+    background-color: #575757;
+    border-radius: 5px;
+    width: 47.5%;
+}
+
+.tienda-card-content2{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-compra{
+    background-color: #312D2E;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    color: white;
+    padding: 18px;
+    font-weight: 700;
+    transition: all .9s ease;
+    
+
+}
+
+.tienda-card-footer{
+    margin-top: -20px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    letter-spacing: 1px;
+}
+
+.tienda-card-content2 h4{
+    font-weight: 800;
+    color: #242219;
+    font-size: 30px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.btn-compra:hover{
+    background-color: #FEE545;
+    color: black;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -77px;
+    padding-right: auto;
+    background-color: #575757;
+}
+
+#footer-ultimo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -74px;
+}
+.ultimo{
+    font-size: 40px;
+    color: black;
+    font-family: serif;
+    margin-left: -00px;
+    margin-top: -9px;
+}
+
+.btn-ultimo{
+    background-color: #332F30;
+    border-radius: 10px;
+    padding: 1%;
+    margin-bottom: 90px;
+    margin-left: 700px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.9s ease;
+}
+
+.btn-ultimo:hover{
+    color: black;
+    background-color:aqua;
+}
+
+.footer-contacto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contacto li {
+    display: flex;
+    align-items: center;
+}
+
+.footer-contacto i {
+    margin-right: 10px;
+}
+
+.footer-redes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer-redes a i {
+    font-size: 25px;
+    color: #ffffff;
+    margin-right: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+}
